@@ -1,13 +1,12 @@
 # Esercizi per il Laboratorio di Sistemi Operativi
-## Professor Davide Sangiorgi
-## Dr Stefano Pio Zingaro
-Esercizi di consolidamento per l'insegnamento del linguaggio Jolie.
+Professor Davide Sangiorgi
+Dr Stefano Pio Zingaro
 ------------------------------------------------------------------
 
+##Esercizi di consolidamento per l'insegnamento del linguaggio Jolie.
 Nell'arco del corso verranno pubblicati una serie di esercizi utili a conseguire l'autonomia nella programmazione in *[Jolie](http://jolie-lang.org)*, la documentazione di *Jolie* è disponibile @ [Jolie Docs](https://docs.jolie-lang.org/).
 
 ###### 13 Aprile 2018
-=====================
 1) `sendNumber` da **Client** a **Server**, creare un servizio di invio di un input contenente un numero. Creare il relativo servizio di ricezione che stampa il numero ricevuto.
 
    - Esempio di input: **5**
