@@ -86,6 +86,10 @@ outputPort Calculator {
     /* INSERISCI IL DEPLOYMENT DEL client PER sodep */
 }
 
+/*
+Per effettuare una richiesta in http basta andare con il browser alla pagina *http://<indirizzo_calculator:porta_calculator>/sum?x=5&y=6*
+*/
+
 /**** BEHAVIOUR client ****/
 main
 {
@@ -93,7 +97,7 @@ main
 }
 ```
 
-   - Il servizio *calculator* che offre il servizio di somma, sia in sodep che http, per effettuare una richiesta in http basta andare con il browser alla pagina *http://localhost:8000/sum?x=5&y=6*:
+   - Il servizio *calculator* che offre il servizio di somma, sia in sodep che http:
 
 ```jolie
 include "interface.iol"
