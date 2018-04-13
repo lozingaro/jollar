@@ -10,8 +10,8 @@ Nell'arco del corso verranno pubblicati una serie di esercizi utili a conseguire
 =====================
 1) `sendNumber` da **Client** a **Server**, creare un servizio di invio di un input contenente un numero. Creare il relativo servizio di ricezione che stampa il numero ricevuto.
 
-Esempio di input: **5**
-Esempio di output: **Il numero inviato è 5**
+⋅⋅⋅Esempio di input: **5**
+⋅⋅⋅Esempio di output: **Il numero inviato è 5**
 
 - Le specifiche delle `operations` sono fornite di seguito:
 
@@ -65,8 +65,8 @@ main
 
 2) `calculator`, creare un servizio calcolatrice che offre l'operazione di somma tra due numeri interi, sia tramite protocollo **http** che **sodep** e restituisce la somma tra i due numeri in *output*. Creare anche un client che effettua una richiesta di somma e stampa il risultato. 
 
-Esempio di input: **3,4** 
-Esempio di output: **Il risultato della somma tra 3 e 4 è 7**
+⋅⋅⋅Esempio di input: **3,4** 
+⋅⋅⋅Esempio di output: **Il risultato della somma tra 3 e 4 è 7**
 
 - L'interfaccia viene fornita di seguito:
 
