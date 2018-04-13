@@ -87,7 +87,7 @@ outputPort Calculator {
 }
 
 /*
-Per effettuare una richiesta in http basta andare con il browser alla pagina *http://<indirizzo_calculator:porta_calculator>/sum?x=5&y=6*
+Per effettuare una richiesta in http basta andare con il browser alla pagina http://<indirizzo_calculator:porta_calculator>/sum?x=5&y=6 per ottenere la risposta 11 direttamente dal browser
 */
 
 /**** BEHAVIOUR client ****/
@@ -121,7 +121,9 @@ inputPort Calculator_sodep {
 main
 {
     sum( a )( b ) {
-        /* INSERISCI IL BEHAVIOUR PER LA SOMMA */
+        /* INSERISCI IL BEHAVIOUR PER LA SOMMA, RICORDA:
+        !! a E' la richiesta, b E' la risposta !!
+        */
     }
 }
 ```
