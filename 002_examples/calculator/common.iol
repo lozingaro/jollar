@@ -1,9 +1,8 @@
-type SumRequest:void {
+type SumRequest: void {
 	.x:int
 	.y:int
 }
 
 interface CalculatorInterface {
-RequestResponse:
-	sum(SumRequest)(int)
+    RequestResponse: sum(SumRequest)(int)
 }
