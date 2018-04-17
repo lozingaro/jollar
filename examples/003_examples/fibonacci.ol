@@ -13,6 +13,6 @@ define fibonacci
 
 main
 {
-	f1 = 0;	f2 = 1;	end = 200;
+	f1 = 0;	f2 = 1;	end = args;
 	fibonacci
 }

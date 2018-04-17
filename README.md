@@ -57,7 +57,7 @@ main
 }
 ```
 
-[Vai alla soluzione](002_examples/client_server)
+[Vai alla soluzione](examples/002_examples/client_server)
 
 2) `calculator`, creare un servizio calcolatrice che offre l'operazione di somma tra due numeri interi, sia tramite protocollo **http** che **sodep** e restituisce la somma tra i due numeri in *output*. Creare anche un client che effettua una richiesta di somma e stampa il risultato. 
 
@@ -127,4 +127,4 @@ main
     }
 }
 ```
-[Vai alla soluzione](002_examples/calculator)
+[Vai alla soluzione](examples/002_examples/calculator)

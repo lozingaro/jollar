@@ -11,6 +11,5 @@ main
 	team.sponsor = "Nike";
 	team.ranking = 3;
 
-	valueToPrettyString@StringUtils( team )( result );
-	println@Console( result )()
+	valueToPrettyString@StringUtils( team )( result )
 }

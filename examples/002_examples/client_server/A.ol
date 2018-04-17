@@ -1,5 +1,4 @@
 include "interface.iol"
-include "console.iol"
 
 outputPort B {
     Location: "socket://localhost:8000"

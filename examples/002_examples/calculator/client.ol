@@ -9,8 +9,8 @@ outputPort Calculator{
 
 main
 {
-	root.x = int( args[0] );
-	root.y = int( args[1] );
+	root.x = 3;
+	root.y = 4;
 	sum@Calculator( root )( result );
 	println@Console( result )()
 }

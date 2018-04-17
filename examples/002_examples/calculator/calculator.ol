@@ -3,7 +3,7 @@ include "console.iol"
 
 execution{ concurrent }
 
-// "http://localhost:8000/sum?x=5&y=6"
+// "http://localhost:8000/sum?x=3&y=4"
 
 inputPort In {
   Location: "socket://localhost:8000"
@@ -20,7 +20,7 @@ Interfaces: CalculatorInterface
 main
 {
 	sum( a )( b ) {
-		println@Console( a.x + " + " + a.y )();
+        println@Console( a.x + " + " + a.y )();
 		b = a.x + a.y
 	}
 }

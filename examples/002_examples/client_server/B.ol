@@ -10,5 +10,5 @@ inputPort MyInput {
 main
 {
     sendNumber( x ); // Receive x from any client
-    println@Console( "il numero è " + x.x )()
+    println@Console( "il numero inviato è " + x.x)()
 }
