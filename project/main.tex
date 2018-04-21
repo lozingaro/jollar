@@ -1,0 +1,177 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{mathbbol}
+\usepackage[bookmarks=false,colorlinks,urlcolor=blue,%
+linkcolor=magenta,citecolor=red,linktocpage=true,breaklinks=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{inconsolata}
+
+\title{Jolie Blockchain Shop}
+\author{Stefano Pio Zingaro}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Il progetto si propone di creare un sistema di scambio elettronico decentralizzato, in cui gli utenti effettuano transazioni certificate dalla rete stessa, senza il bisogno di un organo centrale garante (come ad esempio una banca). Il progetto è sviluppato seguendo i principi della programmazione orientata ai (micro)servizi, in cui la comunicazione tra i processi è implementata nel linguaggio visto a lezione: Jolie.
+\end{abstract}
+
+\section{Descrizione del progetto}
+%
+Formalmente, il sistema consiste in una rete \textit{Peer-To-Peer}~(\textbf{P2P}) che utilizza tecniche di \textit{Proof-of-Work}~(\textbf{POW}) per registrare l'elenco delle transazioni in un archivio pubblico, detto \textbf{blockchain}. 
+Una rete P2P, come ad esempio quella di Emule\footnote{\url{www.emule-project.net/home/perl/general.cgi?l=18}}, è una rete i cui nodi non sono \textbf{client} o \textbf{server} fissi, ma prendono forma di entità equivalenti o ``paritarie''.
+%
+\begin{center}
+    \includegraphics[width=.7\linewidth]{img/p2p}
+\end{center}
+%
+La PoW, è un algoritmo che viene utilizzato per raggiungere un accordo decentralizzato tra diversi nodi nel processo di aggiunta di un blocco specifico alla blockchain.
+Tale algoritmo produce valori che vengono utilizzati per verificare che sia stata eseguita una notevole quantità di lavoro - da qui il termine Proof of Work. Per visualizzare un esempio di POW nel mondo delle criptovalute (Ethereum) rimando a questa immagine\footnote{\url{https://cdn-images-1.medium.com/max/1600/1*IXfYeg_xktzcgnHormvupg.jpeg}}.
+%
+\subsection{Le Transazioni}
+%
+%
+\subsection{Il Server Timestamp}
+%
+%
+\subsection{La Proof-of-Work}
+%
+Per implementare un server timestamp basato su rete P2P, abbiamo bisogno di usare un sistema di proof-of-work\footnote{\url{http://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.ps}}. Questo metodo consiste nell'obbligare i nodi che vogliono scrivere un blocco a cercare un valore che sia difficile da trovare e di cui sia facile controllarne la correttezza da parte degli altri nodi che vogliono validare la scrittura.
+%
+\begin{itemize}
+    \item \textbf{Indice}: Un numero primo $p$ deve essere generato, una buona pratica sarebbe quella di generare un numero primo abbastanza grande, quindi si consiglia l'utilizzo di tipi \texttt{Long}. I \texttt{Long} in Java, quindi anche in Jolie, hanno un limite superiore pari a $9,223,372,036,854,775,807$. Oltre questo numero il sistema semplicemente termina di produrre prove.
+    \item \textbf{Definizione}: $f_p(x) \equiv \sqrt{x} \bmod p$, cioè equivale ad estrarre tutte le radici quadrate modulo il numero primo $p$. Il dominio di $f_p$ è $\mathbb{Z}_p$.
+    \item \textbf{Verifica}:  Dati $x,y$ controllare che $y^2 \equiv x \bmod p$.
+\end{itemize}
+%
+Il meccanismo di controllo prevede solo una moltiplicazione, mentre non esiste un metodo veloce per l'estrazione delle radici modulo un numero primo, che non richieda meno di $\log{p}$ moltiplicazioni. Ne consegue che maggiore sia la lunghezza di $p$, maggiore sarà lo sforzo computazionale necessario, e quindi maggiore la differenza di tempo per valutare $f_p$ e per verificarne la correttezza.
+%
+\subsection{La Rete Peer-To-Peer}
+%
+%
+\section{Consegna del Progetto}
+%
+\subsection{Implementazione}
+%
+Il progetto deve essere sviluppato utilizzando il linguaggio Jolie.
+Non ci sono requisiti riguardo ai protocolli (Protocol) e i media (Location) utilizzati per realizzare la comunicazione tra i componenti dello Shop. 
+L'obiettivo riguarda la gestione concorrente di risorse condivise. 
+L'importante è dimostrare che il comportamento implementato gestisca i tipici problemi di concorrenza su risorse condivise (e.g., il tipico problema Readers-Writers).
+%
+\newline\newline
+%
+\textbf{N.B.} Uno dei punti di valutazione riguarda l'uso del parallelismo nel progetto. 
+E.g., usare execution { sequential } per prevenire scritture (e letture) parallele è una soluzione al problema considerato, ma rappresenta anche una notevole perdita in termini di concorrenza, incidendo negativamente sulla valutazione del progetto.
+%
+\subsection{Report}
+%
+Il report, scritto in word o \LaTeX, dovrà avere le seguenti caratteristiche formali:
+\begin{enumerate}
+    \item Dovrà avere lunghezza di quattro o cinque pagine (da 4 a 5 pagine equivalgono da 8 a 10 facciate).
+    \item Dovrà essere scritta in singola colonna con font di grandezza \textbf{12pt}.
+    \item Deve essere consegnato in formato PDF.
+\end{enumerate}
+In contenuto del report avrà discussioni in particolare sui seguenti argomenti:
+\begin{itemize}
+    \item la struttura del progetto (la divisione delle funzionalità tra i servizi e la loro gerarchia);
+    \item le scelte più importanti fatte sul progetto e come sono state sviluppate, con esempi di codice;
+    \item i problemi principali riscontrati, le alternative considerate e le soluzioni scelte;
+    \item le istruzioni per eseguire il progetto e quelle per eseguire una demo di esecuzione. \textit{Questo punto è particolarmente importante, scrivete le specifiche come se tutto il programma dovesse essere eseguito da una persona che non sa nulla del progetto, dopo almeno 2 anni dal momenti in cui è stato scritto}.
+\end{itemize}
+\subsubsection{Demo}
+La demo conterrà almeno 5 nodi della rete, 1 server timestamp, 1 Network Visualizer per osservare l'esecuzione dei comandi.
+La sequenza di esecuzione suggerita è la seguente:
+\begin{enumerate}
+    \item avvio dei del Server;
+    \item avvio del Network Visualizer;
+    \item avvio in cascata dei nodi.
+\end{enumerate}
+A questo indirizzo è disponibile un canovaccio, in markdown, con la struttura del report. 
+Pandoc\footnote{\url{http://cs.unibo.it/~sgiallor/teaching/project/current/report_template.md}} permette di creare PDF da markdown. 
+È possibile scrivere il report nel formato preferito (.doc, .tex), l'importante è che il PDF generato rispetti la struttura del modello.
+%
+\subsection{Gruppi}
+%
+I gruppi possono essere costituiti da un minimo di 3 a un massimo di 5 persone. 
+\newline
+I gruppi che intendono svolgere questo progetto, devono comunicare via email a stefanopio.zingaro@unibo.it entro il 10 Maggio 2018 la composizione del gruppo. 
+\newline
+L'email deve avere come oggetto “GRUPPO LSO” e contenere:
+Nome del gruppo;
+Una riga per ogni componente del gruppo, con cognome, nome e matricola;
+Un indirizzo email di riferimento a cui mandare le notifiche al gruppo, sarà poi suo incarico trasmetterle agli altri membri. 
+Email di esempio con oggetto Gruppo LSO
+NomeGruppo
+- Zingaro, Stefano, XXXXXX
+- Pallino, Pinco, XXXXXX
+- Banana, Joe, XXXXXX
+Referente: stefano.zingaro@studio.unibo.it
+\newline
+Chi non comunicherà la composizione del gruppo entro il 10 Maggio 2018 non potrà consegnare il progetto.
+\newline
+Nel caso, chi non riuscisse a trovare un gruppo, lo comunichi il prima possibile, entro e non oltre il 7 Maggio 2018, a stefanopio.zingaro@unibo.it con una mail con oggetto “CERCO GRUPPO LSO”, specificando:
+Cognome, Nome, Matricola, Email 
+Eventuali preferenze legate a luogo e tempi di lavoro (si cercherà di costituire gruppi di persone con luoghi e tempi di lavoro compatibili)
+Email di esempio con oggetto Cerco Gruppo LSO 
+\newline
+- Zingaro, Stefano, XXXXXX, stefano.zingaro@studio.unibo.it
+\newline
+Preferisco trovarci nei pressi del dipartimento, tutti i giorno dopo pranzo.
+\newline
+ne senza un gruppo verranno raggruppate il prima possibile (e non sarà possibile modificare i gruppi formati).
+%
+\subsection{Consegna e Date}
+%
+Lo sviluppo del progetto avviene col supporto di \textit{Git}\footnote{\url{http://rogerdudler.github.io/git-guide/index.it.html}}, così come la consegna del progetto.
+I gruppi devono creare un repository su GitLab\footnote{\url{http://gitlab.com}} seguendo la procedura descritta sotto.
+Creazione del gruppo:
+\begin{itemize}
+    \item ogni membro del gruppo crea un account su GitLab;
+    \item il referente del gruppo:
+    \begin{itemize}
+        \item crea un progetto cliccando sul \textbf{+} in alto a destra nella schermata principale di GitLab, inserendo il nome ``LabSO\_NomeGruppo'' (dove NomeGruppo è il nome registrato in precedenza del gruppo) e cliccando su \textbf{Create Project};
+        \item una volta che il progetto è stato creato, aggiunge membri al progetto andando su \textbf{Settings} > \textbf{Members};
+        \item aggiunge ogni membro del gruppo come \textbf{Developer}, cercandoli in base allo username registrato su GitLab;
+        \item aggiunge l'utente ``@stefanopiozingaro'' come \textbf{Reporter}.
+    \end{itemize}
+\end{itemize}
+%
+Al momento della consegna, il repository dovrà contenere i sorgenti del progetto e la relazione, nominata \textbf{REPORT\_LSO.pdf}. 
+È possibile inserire un file di nome \textbf{README} che riporti istruzioni su come lanciare gli eseguibili.
+Per effettuare la consegna, il \textbf{referente del gruppo} crea un \textbf{Tag} (chiamato anche release) del progetto. 
+Per creare un \textbf{Tag} del progetto:
+\begin{enumerate}
+    \item nella pagina di progetto su GitLab, cliccare sulle voci \textbf{Repository} > \textbf{Tags} > \textbf{New Tag}; 
+    \item digitare come \textbf{Tag Name} il nome \textbf{Consegna} e lasciare gli altri campi vuoti;
+    \item cliccare su \textbf{Create Tag} per eseguire la creazione del \textbf{Tag} di consegna.
+\end{enumerate}
+%
+Una volta creato il Tag, inviare una email di notifica di consegna (quindi senza alcun codice sorgente) con soggetto `CONSEGNA LSO - NOME GRUPPO' (dove NOME GRUPPO è il nome registrato del gruppo) a \url{stefanopio.zingar@unibo.it}.
+Il report va anche consegnato in forma cartacea nella casella del prof. Sangiorgi (piano terra del Dipartimento di Informatica, a fianco dell'ufficio).
+Come data di consegna, farà fede la data di creazione del Tag su GitLab. 
+In seguito alle consegne, verranno fissate data e ora della discussione del progetto compatibilmente coi tempi di correzione. 
+La data di discussione verrà notificata ai gruppi tramite la mail di riferimento.
+%
+\subsubsection{Valutazione}
+%
+Il progetto deve rispettare la consegna descritta nelle Sezioni Descrizione. 
+Il progetto verrà valutato mediante una discussione di gruppo, con tutti i componenti del gruppo presenti. 
+Non è possibile per i componenti di un gruppo effettuare la discussione in incontri separati. 
+Al termine della discussione, ad ogni singolo componente verrà assegnato un voto in base all'effettivo contributo dimostrato nel lavoro di progetto. 
+La valutazione del progetto è indipendente dal numero di persone che compongono il gruppo.
+\subsubsection{Note Importanti}
+%
+\begin{itemize}
+    \item non si accettano email o richieste di eccezioni sui progetti con motivazioni legate a esigenze di laurearsi o di non voler pagare le tasse per un altro anno.
+    \item chi copia o fa copiare, anche un sola parte del progetto, si vedrà invalidare completamente il progetto senza possibilità di appello. Dovrà quindi rifare un nuovo progetto l'anno successivo.
+\end{itemize}
+%
+\subsection{Domande sul Progetto e Ricevimento}
+%
+Per le domande sul progetto si consiglia di usare il newsgroup del corso. 
+Risposte corrette alle domande dei colleghi sul newsgroup verranno valutate positivamente in sede di esame. 
+È possibile chiedere informazioni o un ricevimento via email, specificando la motivazione della richiesta, a \url{stefanopio.zingaro@unibo.it}.
+%
+\end{document}

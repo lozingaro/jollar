@@ -14,8 +14,8 @@ main
 	cities.(cityName).state = "Germany";
 
 	if ( !is_defined( cities.Munich.population ) ) {
-	println@Console( "too bad" )()
-	|
+		println@Console( "too bad" )()
+		|
 	foreach( city : cities ) {
 		valueToPrettyString@StringUtils( cities.( city ) )( result );
 		println@Console( result )()
