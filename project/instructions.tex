@@ -6,6 +6,7 @@
 linkcolor=magenta,citecolor=red,linktocpage=true,breaklinks=true]{hyperref}
 \usepackage{graphicx}
 \usepackage{inconsolata}
+\renewcommand*\contentsname{Indice}
 
 \title{Jollar -- A Jolie Based Criptocurrency}
 \author{Stefano Pio Zingaro}
@@ -14,13 +15,15 @@ linkcolor=magenta,citecolor=red,linktocpage=true,breaklinks=true]{hyperref}
 
 \maketitle
 
+\tableofcontents
+
 \begin{abstract}
 Il progetto si propone di creare un sistema di scambio elettronico decentralizzato, in cui gli utenti effettuano transazioni certificate dalla rete stessa, senza il bisogno di un organo centrale garante (come ad esempio una banca). Il progetto è sviluppato seguendo i principi della programmazione orientata ai (micro)servizi, in cui la comunicazione tra i processi è implementata nel linguaggio visto a lezione: Jolie.
 \end{abstract}
 
 \section{Descrizione del progetto}
 %
-Formalmente, il sistema consiste in una rete \textit{Peer-To-Peer}~(\textbf{P2P}) che utilizza tecniche di \textit{Proof-of-Work}~(\textbf{POW}) per registrare l'elenco delle transazioni in un archivio pubblico, detto \textbf{blockchain}. 
+In generale, il sistema consiste in una rete \textit{Peer-To-Peer}~(\textbf{P2P}) che utilizza tecniche di \textit{Proof-of-Work}~(\textbf{POW}) per registrare l'elenco delle transazioni in un archivio pubblico, detto \textbf{blockchain}. 
 Una rete P2P, come ad esempio quella di Emule\footnote{\url{www.emule-project.net/home/perl/general.cgi?l=18}}, è una rete i cui nodi non sono \textbf{client} o \textbf{server} fissi, ma prendono forma di entità equivalenti o ``paritarie''.
 %
 \begin{center}
@@ -28,12 +31,16 @@ Una rete P2P, come ad esempio quella di Emule\footnote{\url{www.emule-project.ne
 \end{center}
 %
 La PoW, è un algoritmo che viene utilizzato per raggiungere un accordo decentralizzato tra diversi nodi nel processo di aggiunta di un blocco specifico alla blockchain.
-Tale algoritmo produce valori che vengono utilizzati per verificare che sia stata eseguita una notevole quantità di lavoro - da qui il termine Proof of Work. Nell'immagine riportata qui sotto viene visualizzato un esempio di utilizzo di tecniche POW nel mondo delle criptovalute (in particolare quella di Ethereum, generalizzabile a qualunque altra che usa POW).
+Tale algoritmo produce valori che vengono utilizzati per verificare che sia stata eseguita una notevole quantità di lavoro. Nell'immagine riportata qui sotto viene visualizzato un esempio di utilizzo di tecniche POW nel mondo delle criptovalute (in particolare quella di Ethereum ma generalizzabile a qualunque altra che usa POW).
 %
 \begin{center}
     \includegraphics[width=\linewidth]{img/pow}
 \end{center}
 %
+La \textbf{blockchain} è una struttura dati ordinata, una lista concatenata di blocchi contenenti transazioni.
+L'intera struttura della blockchain può essere conservata in un file, oppure in un database.
+Un \textbf{block}, o blocco, è un contenitore, una struttura dati a sua volta, che aggrega transazioni che devono essere incluse in un \textit{ledger}\footnote{termine che indica il libro mastro dei contabili, viene tradotto come registro.} pubblico e condiviso, la blockchain. 
+Il blocco è composto da un \textit{header}, che contiene i \textit{metadata}, e dalla lista di transazioni che ne compongono la maggior parte della grandezza.
 \subsection{Le Transazioni}
 %
 %
