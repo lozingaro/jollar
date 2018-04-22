@@ -15,13 +15,37 @@ linkcolor=magenta,citecolor=red,linktocpage=true,breaklinks=true]{hyperref}
 
 \maketitle
 
-\tableofcontents
-
 \begin{abstract}
 Il progetto si propone di creare un sistema di scambio elettronico decentralizzato, in cui gli utenti effettuano transazioni certificate dalla rete stessa, senza il bisogno di un organo centrale garante (come ad esempio una banca). Il progetto è sviluppato seguendo i principi della programmazione orientata ai (micro)servizi, in cui la comunicazione tra i processi è implementata nel linguaggio visto a lezione: Jolie.
 \end{abstract}
 
-\section{Descrizione del progetto}
+\tableofcontents
+
+\section{Informazioni Logistiche}
+\include{logistic}
+
+\section{Componenti del Progetto e loro Implementazione}
+\include{components}
+
+\section{Specifiche di Consegna}
+%
+\subsection{Il Report}
+%
+\subsubsection{Modalità di Consegna}
+%
+\subsubsection{Griglia di Valutazione}
+%
+\subsection{La Demo}
+%
+\subsubsection{Modalità di Consegna}
+%
+\subsubsection{Griglia di Valutazione}
+%
+\subsection{L'Implementazione}
+%
+\subsubsection{Modalità di Consegna}
+%
+\subsubsection{Griglia di Valutazione}
 %
 In generale, il sistema consiste in una rete \textit{Peer-To-Peer}~(\textbf{P2P}) che utilizza tecniche di \textit{Proof-of-Work}~(\textbf{POW}) per registrare l'elenco delle transazioni in un archivio pubblico, detto \textbf{blockchain}. 
 Una rete P2P, come ad esempio quella di Emule\footnote{\url{www.emule-project.net/home/perl/general.cgi?l=18}}, è una rete i cui nodi non sono \textbf{client} o \textbf{server} fissi, ma prendono forma di entità equivalenti o ``paritarie''.
@@ -104,37 +128,7 @@ Pandoc\footnote{\url{http://cs.unibo.it/~sgiallor/teaching/project/current/repor
 %
 \subsection{Gruppi}
 %
-I gruppi possono essere costituiti da un minimo di 3 a un massimo di 5 persone. 
-I gruppi che intendono svolgere questo progetto, devono comunicare via email a \url{stefanopio.zingaro@unibo.it} entro il \textbf{10 Maggio 2018} la composizione del gruppo. 
-L'email deve avere come oggetto \textbf{GRUPPO LSO} e contenere:
-\begin{enumerate}
-    \item Nome del gruppo;
-    \item Una riga per ogni componente del gruppo, con cognome, nome e matricola;
-    \item Un indirizzo email di riferimento a cui mandare le notifiche al gruppo, sarà poi suo incarico trasmetterle agli altri membri.
-\end{enumerate}
-Email di esempio con oggetto \textbf{GRUPPO LSO}
 
-\noindent\textit{NomeGruppo}
-\begin{itemize}
-    \item \textit{Zingaro, Stefano, 123456}
-    \item \textit{Pallino, Pinco, 234567}
-    \item \textit{Banana, Joe, 345678}
-\end{itemize}
-\textit{Referente:} \url{stefano.zingaro@studio.unibo.it}
-
-Chi non comunicherà la composizione del gruppo entro il \textbf{10 Maggio 2018} non potrà consegnare il progetto. 
-Nel caso, chi non riuscisse a trovare un gruppo, lo comunichi il prima possibile, entro e non oltre il \textbf{7 Maggio 2018}, a \url{stefano.zingaro@studio.unibo.it} con una mail con oggetto \textbf{CERCO GRUPPO LSO}, specificando:
-\begin{enumerate}
-    \item Cognome, Nome, Matricola, Email;
-    \item Eventuali preferenze legate a luogo e tempi di lavoro (si cercherà di costituire gruppi di persone con luoghi e tempi di lavoro compatibili)
-\end{enumerate}
-Email di esempio con oggetto \textbf{CERCO GRUPPO LSO} 
-\begin{itemize}
-    \item \textit{Zingaro, Stefano, 123456,} \url{stefano.zingaro@studio.unibo.it}
-\end{itemize}
-\textit{Preferisco trovarci nei pressi del dipartimento, tutti i giorno dopo pranzo.}
-
-Le persone senza un gruppo verranno raggruppate il prima possibile \textbf{e non sarà possibile modificare i gruppi formati}.
 
 \subsection{Consegna e Date}
 %
