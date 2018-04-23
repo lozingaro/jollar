@@ -1,0 +1,104 @@
+Globalmente vengono consegnati tre prodotti: il report del progetto, la sua implementazione in codice Jolie ed una demo di funzionamento. La valutazione finale avviene mediante una discussione di gruppo.
+\begin{tcolorbox}[colback=yellow!20!white,colframe=yellow!75!black,title=\textbf{N.B.}]
+    \begin{enumerate}
+        \item non si accettano richieste di eccezioni sui progetti con motivazioni legate a esigenze di laurearsi o di non voler pagare le tasse per un altro anno.
+        \item chi copia o fa copiare, anche solo in parte, si vede invalidare completamente il progetto senza possibilità di appello $\rightarrow$ deve quindi rifare un nuovo progetto l'anno successivo.
+    \end{enumerate}
+\end{tcolorbox}
+
+\subsection{Il Report}
+È possibile scrivere il report nel formato preferito, l'importante è che il PDF generato rispetti la struttura del modello (riportato qui in basso). Il report ha lunghezza di quattro o cinque pagine (quindi da 8 a 10 facciate), è scritto con font di grandezza \textbf{12pt} e viene consegnato in formato PDF. 
+Di seguito viene riportato un esempio di report con le principali caratteristiche da inserire.
+\begin{tcolorbox}[colback=green!20!white,colframe=green!75!black,title=L'intestazione del Report]
+\begin{itemize}
+    \item Jollar -- Laboratorio Sistemi Operativi A.A. 2017-2018
+    \item Nome del Gruppo
+    \item Indirizzo mail di riferimento: myaccount@email.com
+    \item Componenti:
+    \begin{itemize}
+        \item Cognome, Nome, Matr. 0000424242
+        \item \dots
+    \end{itemize}
+\end{itemize}
+\end{tcolorbox}
+\begin{tcolorbox}[colback=green!20!white,colframe=green!75!black,title=Il corpo del Report]
+\begin{enumerate}
+    \item Descrizione generale del progetto -- descrizione delle features implementate e del contenuto del report.
+    \item Istruzioni per la demo -- le istruzioni per eseguire una demo.
+    \item Discussione sulle strategie di implementazione 
+    \begin{enumerate}
+        \item Struttura del progetto -- come è stato diviso il progetto, perché, i problemi principali riscontrati, le alternative considerate e le soluzioni scelte.
+        \item Sezione di descrizione della feature x -- abbiamo implementato la funzione di `foo` \dots (con esempi di codice).
+    \end{enumerate}
+\end{enumerate}
+\end{tcolorbox}
+
+\subsubsection{Griglia di Valutazione}
+La valutazione del report verte sull'analisi dello scritto e sulla sua capacità di esprimere con chiarezza i concetti descritti, soprattutto grazie all'uso di esempi. In particolare la griglia di valutazione usata è la seguente:
+\newpage
+\begin{table}[ht]
+    \centering
+    {\footnotesize
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+    \multicolumn{1}{|c|}{\textbf{Indicatore}}                                                  & \multicolumn{1}{c|}{\textbf{Livello 1}}                                                                                                                                  & \multicolumn{1}{c|}{\textbf{Livello 2}}                                                                                                                    & \multicolumn{1}{c|}{\textbf{Livello 3}}                                                                                                                    \\ \hline
+    \textit{\begin{tabular}[c]{@{}l@{}}Qualità \\ dell'informazione\end{tabular}}              & \begin{tabular}[c]{@{}l@{}}Mancato\\ riconoscimento\\ dei problemi \\ (di concorrenza)\\ e assenza della\\ loro descrizione.\end{tabular}                                & \begin{tabular}[c]{@{}l@{}}Riconoscimento\\ dei problemi \\ (di concorrenza)\\ e assenza della\\ loro descrizione.\end{tabular}                            & \begin{tabular}[c]{@{}l@{}}Riconoscimento\\ dei problemi\\ (di concorrenza)\\ e presenza della\\ loro descrizione.\end{tabular}                            \\ \hline
+    \textit{\begin{tabular}[c]{@{}l@{}}Uso degli \\ esempi\end{tabular}}                       & \begin{tabular}[c]{@{}l@{}}Assenza di\\ esempi a\\ supporto delle\\ scelte\\ implementative.\end{tabular}                                                                & \begin{tabular}[c]{@{}l@{}}Presenza di\\ esempi in\\ alcune ma non\\ tutte le\\ scelte\\ implementative.\end{tabular}                                      & \begin{tabular}[c]{@{}l@{}}Presenza di\\ almeno un \\ esempio in\\ tutte le scelte\\ implementative.\end{tabular}                                          \\ \hline
+    \textit{\begin{tabular}[c]{@{}l@{}}Analisi \\ delle scelte \\ implementative\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Assenza della \\ descrizione della \\ propria scelta \\ implementativa \\ ed assenza \\ di proposte \\ di alternative \\ valide.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Descrizione \\ della propria \\ scelta \\ implementativa \\ ed assenza \\ di proposte \\ di alternative \\ valide.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Descrizione \\ della propria \\ scelta \\ implementativa \\ e presenza \\ di proposte \\ di alternative \\ valide.\end{tabular} \\ \hline
+    \end{tabular}
+    }
+\end{table}
+
+\subsection{L'Implementazione}
+Il progetto viene sviluppato utilizzando il linguaggio Jolie. Non ci sono requisiti riguardo ai protocolli (\textit{protocol}) e i media (\textit{location}) utilizzati per realizzare la comunicazione tra i componenti del sistema. La gestione del progetto avviene col supporto del sistema \textit{git}. Il codice del progetto è contenuto in un repository su \href{http://gitlab.com}{GitLab} e viene gestito seguendo la procedura descritta sotto.
+%
+\begin{tcolorbox}[colback=blue!20!white,colframe=blue!75!black,title=GitLab]
+\begin{itemize}
+    \item Ogni membro del gruppo crea un account su GitLab;
+    \item il referente del gruppo  crea un nuovo progetto cliccando sul \textbf{+} in alto a destra nella schermata principale di GitLab, inserendo il nome ``LabSO\_NomeGruppo'' e cliccando su \textbf{New Project};
+    \item una volta che il progetto è stato creato, il referente aggiunge ogni membro del gruppo come \textbf{role permission} $>$\textbf{Developer} al progetto andando su \textbf{Settings} $>$ \textbf{Members} nel menù a sinistra, cercandoli in base allo username registrato su GitLab;
+    \item il referente aggiunge l'utente ``stefanopiozingaro'' come \textbf{role permission} $>$ \textbf{Reporter}.
+\end{itemize}
+\end{tcolorbox}
+%
+Al momento della consegna, il repository dovrà contenere i sorgenti del progetto e la relazione, nominata \textbf{REPORT\_LSO.pdf}. Per effettuare la consegna:
+\begin{enumerate}
+    \item nella pagina di GitLab del repository, cliccare sulle voci del menù \textbf{Repository} $>$ \textbf{Tags} $>$ \textbf{New Tag}; 
+    \item digitare come \textbf{Tag Name} il nome \textbf{Consegna};
+    \item cliccare su \textbf{Create Tag} per eseguire la creazione del \textbf{Tag} di consegna.
+\end{enumerate}
+%
+Una volta creato il Tag, inviare una email di notifica di consegna con soggetto \textbf{CONSEGNA LSO - NOME GRUPPO} a \href{stefanopio.zingaro@unibo.it}{questo indirizzo di posta elettronica}. 
+\begin{tcolorbox}[colback=yellow!20!white,colframe=yellow!75!black,title=\textbf{N.B.}]
+    Il report va anche consegnato in forma cartacea nella casella del prof. Sangiorgi al piano terra del Dipartimento di Informatica, a fianco del suo ufficio.
+\end{tcolorbox}
+
+\subsubsection{Griglia di Valutazione} 
+La valutazione dell'implementazione del sistema si basa sull'analisi del codice Jolie, sull'uso dei costrutti del linguaggio per la creazione di soluzioni efficienti, sulla tolleranza ai guasti del sistema implementato e sulla gestione degli errori. In particolare la griglia di valutazione usata è la seguente:
+\newpage
+\begin{table}[ht]
+    \centering
+    {\footnotesize
+    \begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Indicatore}}                                                            & \multicolumn{1}{c|}{\textbf{Livello 1}}                                                                                                                                                & \multicolumn{1}{c|}{\textbf{Livello 2}}                                                                                                                              \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}Uso dei\\ costrutti\\ di Jolie\end{tabular}}                      & \begin{tabular}[c]{@{}l@{}}Mancato utilizzo\\ dei costrutti per la\\ gestione del\\ parallelismo, uso di \\ execution(sequential)\\ in alcuni servizi \\ ma non in tutti.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Corretto utilizzo\\ dei costrutti per la\\ gestione del\\ parallelismo, uso di\\ execution(concurrent)\\ in tutti i servizi.\end{tabular} \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}Distribuzione\\ del carico\\ di lavoro\\ nel gruppo\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Disomogeneità\\ nella ripartizione del\\ lavoro nel gruppo, \\ con conseguente \\ dissimmetria di\\ informazione.\end{tabular}                              & \begin{tabular}[c]{@{}l@{}}Omogeneità nella\\ ripartizione dei \\ compiti nel gruppo,\\ ogni membro \\ partecipa egualmente\\ allo sviluppo.\end{tabular}            \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}Grado di \\ partecipazione\\ alla comunità\end{tabular}}          & \begin{tabular}[c]{@{}l@{}}Assenza di domande\\ e risposte sul \\ newsgroup del corso\end{tabular}                                                                                     & \begin{tabular}[c]{@{}l@{}}Presenza di domande \\ e risposte sulla\\ newsgroup del corso\end{tabular}                                                                \\ \hline
+\end{tabular}
+    }
+\end{table}
+
+\subsection{La Demo}
+La demo, o dimostrazione di funzionamento, esegue e monitora il comportamento di un sistema di gestione decentralizzata di transazioni. Essa simula almeno quattro utenti che entrano a far parte della rete peer-to-peer come nodi, un server timestamp che gestisce la sincronizzazione oraria ed un tool per monitorare lo stato della rete (il Network Visualiser).
+La sequenza di esecuzione è la seguente:
+\begin{enumerate}
+    \item avvio del Server Timestamp;
+    \item avvio del Network Visualizer;
+    \item avvio del primo nodo, generatore del primo blocco (con \textit{reward} di sei Jollar);
+    \item avvio del secondo, terzo e quarto nodo (con conseguente \textit{download} della blockchain);
+    \item invio di un Jollar dal primo al secondo nodo (con conseguente scrittura su un nuovo blocco e reward relativo);
+    \item invio di due Jollar dal primo al terzo nodo (con conseguente scrittura su un nuovo blocco e reward relativo);
+    \item invio di tre Jollar dal primo al quarto nodo (con conseguente scrittura su un nuovo blocco e reward relativo);
+    \item richiesta al Network Visualiser di stampare la situazione relativa al totale dei Jollar presenti nella rete e dei relativi possessori, con l'elenco delle transazioni avvenute.
+\end{enumerate}
