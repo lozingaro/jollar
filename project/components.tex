@@ -1,9 +1,9 @@
-In generale, il sistema consiste in una rete \textit{Peer-To-Peer} (\textbf{P2P}) che utilizza \textit{Proof-of-Work} (\textbf{POW}) per registrare l'elenco delle transazioni in un archivio pubblico, detto \textbf{blockchain}. Per una migliore comprensione del fenomeno si rimanda alla lettura dell'articolo originale \href{https://bitcoin.org/bitcoin.pdf}{Bitcoin}. 
-L'implementazione del progetto è, almeno in parte, ripresa da quella descritta nell'articolo, fatta eccezione per lo sviluppo della POW, che segue i principi della criptovaluta \href{http://primecoin.io/bin/primecoin-paper.pdf}{\textbf{Primecoin}}.
+In generale, il sistema consiste in una rete \textit{Peer-To-Peer} (\textbf{P2P}) che utilizza \textit{Proof-of-Work} (\textbf{POW}) per registrare l'elenco delle transazioni in un archivio pubblico, detto \textbf{blockchain}. Per una migliore comprensione del fenomeno si rimanda alla lettura dell'articolo originale di Satoshi Nakamoto \href{https://bitcoin.org/bitcoin.pdf}{Bitcoin}. 
+L'implementazione del progetto è, almeno in parte, ripresa da quella descritta nell'articolo, fatta eccezione per lo sviluppodella POW, che segue i principi della criptovaluta \href{http://primecoin.io/bin/primecoin-paper.pdf}{\textbf{Primecoin}}.
 
 In questa sezione sono enunciate le definizioni di transazioni (contenute in un blocco) e blockchain, e se ne discute la relativa implementazione. Sono poi elencate le definizioni delle altre componenti del sistema: il meccanismo di convalida di un blocco (la Proof-of-Work); il server Timestamp per la sincronizzazione oraria; il comportamento della rete all'avvio dell'esecuzione.
 
-\subsection{Le transazioni e la catena blocchi: la Blockchain}
+\subsection{Le transazioni e la catena di blocchi: la Blockchain}
 La \textbf{blockchain} è una struttura dati ordinata, una lista concatenata di blocchi contenenti transazioni. L'intera struttura della blockchain può essere conservata in un file, oppure in un database. Un \textbf{block}, o blocco, è un contenitore, una struttura dati a sua volta, che aggrega transazioni che devono essere incluse in un \textit{ledger}\footnote{termine che indica il libro mastro dei contabili, viene tradotto come registro.} pubblico e condiviso, la blockchain. 
 Il blocco è composto da un \textit{header}, che contiene i \textit{metadata}, e dalla lista di transazioni che ne compongono la maggior parte della grandezza.
 
@@ -13,7 +13,10 @@ Il blocco è composto da un \textit{header}, che contiene i \textit{metadata}, e
 Un server timestamp offre un servizio che permette di conoscere l'ora esatta all'interno della rete. Un nodo che intende effettuare le operazioni di scrittura o di validazione di un blocco deve richiedere il \textbf{timestamp} al server. Esso garantisce l'esistenza dei dati al momento della richiesta.
 
 \subsubsection{Implementazione}
-In particolare il Server Timestamp, una volta ricevuta la richiesta per l'ora esatta, restituisce un \textit{hash} del \textit{current unix timestamp} nel momento esatto della richiesta.
+In particolare, Jolie offre, tramite l'interfaccia \texttt{time} una \texttt{operation} che restituisce i millisecondi del \textit{current unix timestamp} nel momento esatto della richiesta. Tramite una chiamata a tale servizio si può ottenere il dato necessario da includere nel blocco.
+%
+\lstinputlisting[language=Jolie]{code/timestamp.ol}
+%
 
 \subsection{La Proof-of-Work}
 La PoW, è un algoritmo che viene utilizzato per raggiungere un accordo decentralizzato tra diversi nodi nel processo di aggiunta di un blocco specifico alla blockchain.
