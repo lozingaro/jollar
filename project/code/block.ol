@@ -1,5 +1,5 @@
 type Block: void {
-  .hash: string
+  .previousBlockHash: string
   .difficulty: double
   .transaction*: Transaction
 }
