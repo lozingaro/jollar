@@ -18,3 +18,11 @@ Elenco dei gruppi per il progetto.
 | Giada Vatalaro | 773711 |
 | Arzana Myrtaj | 772501 |
 | Nicola Corea | 731446 |
+
+## Jsociety
+|  Nome e Cognome | Matricola  |
+|---|---|
+|  [Giacomo Rondelli](mailto:giacomo.rondelli2@studio.unibo.it) |  801286 | 
+| Alberto Zini | 802289 |
+| Gabriele Malossi | 794144 |
+| Michele Vece | 801286 |
