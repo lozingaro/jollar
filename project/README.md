@@ -5,7 +5,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto.
 ## BO.RO.LE 2018
 |  Nome e Cognome | Matricola  |
 |---|---|
-|  [Bruno Marafini Bruno](mailto:bruno.marafini@studio.unibo.it) |  731900 | 
+|  [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 | 
 | Francesca Ventruto | 733061 |
 | Riccardo Costanzo | 732909 |
 | Alessandro Fabbri | 739011 |
@@ -34,5 +34,5 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto.
 |  [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 | 
 | Davide Menetto | 768828 |
 | Enrico Morselli | 806725 |
-| Alessandro Memoli Enrico | 806773 |
+| Alessandro Memoli | 806773 |
 | Marco Aspromonte | 806519 |
