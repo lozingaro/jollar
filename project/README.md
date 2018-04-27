@@ -1,14 +1,15 @@
 # Laboratorio di Sistemi Operativi A.A. 2017/2018
 
-Elenco dei gruppi per il progetto.
+Di seguito l'elenco ufficiale dei gruppi per il progetto.
     
 ## BO.RO.LE 2018
 |  Nome e Cognome | Matricola  |
 |---|---|
-|  [Marafini Bruno](mailto:bruno.marafini@studio.unibo.it) |  731900 | 
-| Ventruto Francesca | 733061 |
-| Costanzo Riccardo | 732909 |
-| Fabbri Alessandro | 739011 |
+|  [Bruno Marafini Bruno](mailto:bruno.marafini@studio.unibo.it) |  731900 | 
+| Francesca Ventruto | 733061 |
+| Riccardo Costanzo | 732909 |
+| Alessandro Fabbri | 739011 |
+| Alessandro Freda | 772546 |
 
 ## Answer42
 |  Nome e Cognome | Matricola  |
@@ -26,3 +27,12 @@ Elenco dei gruppi per il progetto.
 | Alberto Zini | 802289 |
 | Gabriele Malossi | 794144 |
 | Michele Vece | 801286 |
+
+## Per un pugno di Jollar
+|  Nome e Cognome | Matricola  |
+|---|---|
+|  [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 | 
+| Davide Menetto | 768828 |
+| Enrico Morselli | 806725 |
+| Alessandro Memoli Enrico | 806773 |
+| Marco Aspromonte | 806519 |
