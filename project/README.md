@@ -27,6 +27,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto.
 | Alberto Zini | 802289 |
 | Gabriele Malossi | 794144 |
 | Michele Vece | 801286 |
+| Gianmarco Lilli | 802572 |
 
 ## Per un pugno di Jollar
 |  Nome e Cognome | Matricola  |
