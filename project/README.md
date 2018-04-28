@@ -1,8 +1,8 @@
 # Laboratorio di Sistemi Operativi A.A. 2017/2018
 
 Di seguito l'elenco ufficiale dei gruppi per il progetto.
-    
-## BO.RO.LE 2018
+
+## BO.RO.LE 2018 `Registered`
 |  Nome e Cognome | Matricola  |
 |---|---|
 |  [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 | 
@@ -11,7 +11,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto.
 | Alessandro Fabbri | 739011 |
 | Alessandro Freda | 772546 |
 
-## Answer42
+## Answer42 `Registered`
 |  Nome e Cognome | Matricola  |
 |---|---|
 |  [Giulia Grassano](mailto:giulia.grassano@studio.unibo.it) |  765873 | 
@@ -20,7 +20,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto.
 | Arzana Myrtaj | 772501 |
 | Nicola Corea | 731446 |
 
-## Jsociety
+## Jsociety `Registered`
 |  Nome e Cognome | Matricola  |
 |---|---|
 |  [Giacomo Rondelli](mailto:giacomo.rondelli2@studio.unibo.it) |  801286 | 
@@ -29,7 +29,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto.
 | Michele Vece | 801286 |
 | Gianmarco Lilli | 802572 |
 
-## Per un pugno di Jollar
+## Per un pugno di Jollar `Registered`
 |  Nome e Cognome | Matricola  |
 |---|---|
 |  [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 | 
