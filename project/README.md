@@ -1,6 +1,6 @@
 # Laboratorio di Sistemi Operativi A.A. 2017/2018
 
-Di seguito l'elenco ufficiale dei gruppi per il progetto.
+Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbia raggiunto la quota massima di membri, oppure se il tempo di registrazione è scaduto ed il gruppo ha un numero minore di 5 membri, troverete la dicitura `Registered`. Il voto pubblicato riguarda il solo progetto (senza discussione). 
 
 ## BO.RO.LE 2018 `Registered`
 |  Nome e Cognome | Matricola  | Voto |
@@ -37,3 +37,12 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto.
 | Enrico Morselli | 806725 | |
 | Alessandro Memoli | 806773 | |
 | Marco Aspromonte | 806519 | |
+
+## 4 Gatti
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+|  [Enrico Gatti](mailto:enrico.gatti4@studio.unibo.it) |  801366 | 
+| Kevin Maiani | 801860 | |
+| Vittoria Conte | 788822 | |
+| Mattia Bellettini | 753920 | |
+
