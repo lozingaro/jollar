@@ -5,7 +5,10 @@ In questa sezione sono enunciate le definizioni di transazioni (contenute in un 
 
 \subsection{Le transazioni e la catena di blocchi: la Blockchain}
 La \textbf{blockchain} è una struttura dati ordinata, una lista concatenata di blocchi contenenti transazioni. L'intera struttura della blockchain può essere conservata in un file, oppure in un database. Un \textbf{block}, o blocco, è un contenitore, una struttura dati a sua volta, che aggrega transazioni che devono essere incluse in un \textit{ledger}\footnote{Il termine ledger indica il libro mastro dei contabili, viene tradotto in italiano come registro.} pubblico e condiviso, la blockchain. 
-Il blocco è composto da un \textit{header}, che contiene i \textit{metadata}, e dalla lista di transazioni che ne compongono la maggior parte della grandezza.
+Il blocco è composto da un \textit{header}, che contiene i \textit{metadata}, e dalla lista di transazioni che ne compongono la maggior parte della grandezza. Di seguito un esempio in Jolie di un tipo custom.
+%
+\lstinputlisting[language=Jolie]{code/block.ol}
+%
 
 \subsubsection{Implementazione}
 \begin{enumerate}
@@ -15,6 +18,11 @@ Il blocco è composto da un \textit{header}, che contiene i \textit{metadata}, e
     \item Il numero primo origine (descritto più avanti);
     \item La catena di numeri primi che compone la Proof-of-Work di quel blocco;
 \end{enumerate}
+
+\noindent In Jolie la funzione di Hash MD5 (da 128 bit) si trova già implementata nell'interfaccia \texttt{MessageDigest}.
+%
+\lstinputlisting[language=Jolie]{code/hash.ol}
+%
 
 \subsection{Il Server Timestamp}
 Un server timestamp offre un servizio che permette di conoscere l'ora esatta all'interno della rete. Un nodo che intende effettuare le operazioni di scrittura o di validazione di un blocco deve richiedere il \textbf{timestamp} al server. Esso garantisce l'esistenza dei dati al momento della richiesta.
