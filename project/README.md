@@ -23,7 +23,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## Jsociety `Registered`
 |  Nome e Cognome | Matricola  | Voto |
 |---|---|---|
-|  [Giacomo Rondelli](mailto:giacomo.rondelli2@studio.unibo.it) |  801286 |  |
+|  [Giacomo Rondelli](mailto:giacomo.rondelli2@studio.unibo.it) |  801416 |  |
 | Alberto Zini | 802289 |
 | Gabriele Malossi | 794144 |
 | Michele Vece | 801286 |
@@ -46,3 +46,37 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Vittoria Conte | 788822 | |
 | Mattia Bellettini | 753920 | |
 
+## G.I.Jollar
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+|  [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 | 
+| Hamza Elatfi | 766364 | |
+| Daniele Filippini | 768268 | |
+| Thomas Lodi | 800963 | |
+
+## NCS `Registered`
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+|  [Miriam Crudelini](mailto:miriam.crudelini@studio.unibo.it) |  794258 |
+| Virginia Gironi | 793169 | |
+| Michele Marini | 804153 | |
+| Lucrezia Orlandini | 800983 | |
+| Beatrice Spiga | 802399 | |
+
+## #deadlock `Registered`
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+|  [Federca Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 |
+| Giada Franceschini | 758288 | |
+| Virginia Gibertini | 758369 | |
+| Serena Passerini | 765715 | |
+| Elena Pollini | 767654 | |
+
+## MillionJollarBaby `Registered`
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+|  [Jurgen Dreni](mailto:jurgen.dreni@studio.unibo.it) |  806526 |
+| Mario Gjeka | 773646 | |
+| Giuseppe Massimo | 802174 | |
+| Adelmo Baldini | 800985 | |
+| Leonardo Marziale | 803420 | |
