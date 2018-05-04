@@ -32,7 +32,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## Per un pugno di Jollar `Registered`
 |  Nome e Cognome | Matricola  | Voto |
 |---|---|---|
-|  [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 | 
+|  [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 | | 
 | Davide Menetto | 768828 | |
 | Enrico Morselli | 806725 | |
 | Alessandro Memoli | 806773 | |
@@ -41,7 +41,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## 4 Gatti
 |  Nome e Cognome | Matricola  | Voto |
 |---|---|---|
-|  [Enrico Gatti](mailto:enrico.gatti4@studio.unibo.it) |  801366 | 
+|  [Enrico Gatti](mailto:enrico.gatti4@studio.unibo.it) |  801366 | |
 | Kevin Maiani | 801860 | |
 | Vittoria Conte | 788822 | |
 | Mattia Bellettini | 753920 | |
@@ -49,7 +49,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## G.I.Jollar
 |  Nome e Cognome | Matricola  | Voto |
 |---|---|---|
-|  [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 | 
+|  [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 | |
 | Hamza Elatfi | 766364 | |
 | Daniele Filippini | 768268 | |
 | Thomas Lodi | 800963 | |
@@ -57,7 +57,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## NCS `Registered`
 |  Nome e Cognome | Matricola  | Voto |
 |---|---|---|
-|  [Miriam Crudelini](mailto:miriam.crudelini@studio.unibo.it) |  794258 |
+|  [Miriam Crudelini](mailto:miriam.crudelini@studio.unibo.it) |  794258 | |
 | Virginia Gironi | 793169 | |
 | Michele Marini | 804153 | |
 | Lucrezia Orlandini | 800983 | |
@@ -66,7 +66,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## #deadlock `Registered`
 |  Nome e Cognome | Matricola  | Voto |
 |---|---|---|
-|  [Federca Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 |
+|  [Federca Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 | |
 | Giada Franceschini | 758288 | |
 | Virginia Gibertini | 758369 | |
 | Serena Passerini | 765715 | |
@@ -75,8 +75,17 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## MillionJollarBaby `Registered`
 |  Nome e Cognome | Matricola  | Voto |
 |---|---|---|
-|  [Jurgen Dreni](mailto:jurgen.dreni@studio.unibo.it) |  806526 |
+|  [Jurgen Dreni](mailto:jurgen.dreni@studio.unibo.it) |  806526 | |
 | Mario Gjeka | 773646 | |
 | Giuseppe Massimo | 802174 | |
 | Adelmo Baldini | 800985 | |
 | Leonardo Marziale | 803420 | |
+
+## Team  SO `Registered`
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+|[Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788| |
+|Emanuela Calvanese| 765662| |
+|Giandomenico D'Errico| 766245| |
+|Marco Viceconte| 794250| |
+|Matteo del Vescovo| 672572| |
