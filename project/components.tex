@@ -43,36 +43,55 @@ Per implementare un sistema decentralizzato basato su rete P2P, abbiamo bisogno 
 \end{center}
 
 \subsubsection{Implementazione}
-La Proof-of-Work scelta per produrre blocchi ed ottenere così sei Jollar in \textit{reward}\footnote{A differenza di Bitcoin, il reward in questo caso è fissato a sei ed è costante per tutta la vita della rete, un \textit{improvement} possibile è cambiare questo valore in una funzione decrescente.} è quella utilizzata dalla moneta PrimeCoin. Essa consiste nel generare delle catena di numeri primi con determinate proprietà.
+La Proof-of-Work scelta per produrre blocchi ed ottenere così sei Jollar in \textit{reward}\footnote{A differenza di Bitcoin, il reward in questo caso è fissato a sei ed è costante per tutta la vita della rete, un \textit{improvement} possibile è cambiare questo valore in una funzione decrescente.} è quella utilizzata dalla moneta PrimeCoin. Essa consiste nel generare delle catena di numeri primi con determinate proprietà. Solo una catena che appartiene ad una di queste tre categorie può essere validata, la POW consiste quindi nel creare una sola di queste catene, il nodo avrà quindi tre possibilità.
 
 \subsubsection*{Catene di Cunningham del Primo Tipo}
-Una catena di Cunningham del primo tipo di lunghezza $k$ è un array di numeri primi:
+Una catena di Cunningham del primo tipo di lunghezza $n$ è un array di numeri primi:
 \begin{center}
-    $n-1,2n-1,\dots,2^{k-1}n-1$
+    $(p_1, \dots, p_n)$ tale che per ogni $1 \leq i < n$ allora $p_i+1 = 2p_i + 1$
 \end{center}
-Il numero $n$ è chiamato l'\textbf{origine} della catena. L'origine di una catena va va incluso nel blocco! Un esempio:
-\begin{itemize}
-    \item origine: $n=5$
-    \item lunghezza: $k=5$
-    \item catena: $2,5,11,23,47$
-\end{itemize}
+Il numero $p_1$ è chiamato l'\textbf{origine} della catena. L'origine di una catena va inclusa nel blocco! Segue dalla regola:
+\begin{equation}
+\begin{split}
+p_2 = 2p_1 + 1, \\
+p_3 = 4p_1 + 3, \\
+p_4 = 8p_1 + 7, \\
+\dots \\
+p_i = 2^{i-1}p_i + ( 2^{i-1} + 1 )
+\end{split}
+\end{equation}
+Un esempio pratico con $p_1 = 2$ e lunghezza $n = 5$:
+\begin{equation}
+\begin{split}
+p_1 = 2 \\
+p_2 = 2p_1 + 1 = 2*2 + 1 = 5, \\
+p_3 = 4p_1 + 3 = 4*2 + 3 = 11, \\
+p_4 = 8p_1 + 7 = 8*2 + 7 = 23, \\
+\dots \\
+p_i = 2^{i-1}p_i + ( 2^{i-1} + 1 ) = 2^4 * 2 + ( 2^4 -1 ) = 47
+\end{split}
+\end{equation}
 
 \subsubsection*{Catene di Cunningham del Secondo Tipo}
-Una catena di Cunningham del secondo tipo di lunghezza $k$ è un array di numeri primi:
+Una catena di Cunningham del secondo tipo di lunghezza $n$ è un array di numeri primi:
 \begin{center}
-    $n-1,n+1,2n-1,2m+1,\dots,\dots,2^{k-1}n-1,2^{k-1}n+1$
+    $(p_1, \dots, p_n)$ tale che per ogni $1 \leq i < n$ allora $p_i+1 = 2p_i - 1$
 \end{center}
-Un esempio:
-\begin{itemize}
-    \item origine: $n=4$
-    \item lunghezza: $2k=4(k=2)$
-    \item catena: $5,7,11,13$
-\end{itemize}
+Il numero $p_1$ è chiamato l'\textbf{origine} della catena. L'origine di una catena va inclusa nel blocco! Segue dalla regola:
+\begin{equation}
+\begin{split}
+p_2 = 2p_1 - 1, \\
+p_3 = 4p_1 - 3, \\
+p_4 = 8p_1 - 7, \\  
+\dots \\
+p_i = 2^{i-1}p_i - ( 2^{i-1} - 1 )
+\end{split}
+\end{equation}
 
 \subsubsection*{Catene Bi-twin}
-Una catena di Bi-twin di lunghezza $2k$ è una catena di $k$ numeri primi
+Una catena di Bi-twin di lunghezza $k+1$ è un array di numeri primi:
 \begin{center}
-    $n-1,2n-1,\dots,2^{k-1}n-1$
+    $n-1, n+1 2n-1, 2n+1, \dots,2^kn-1, 2^kn+1$
 \end{center}
  Un esempio:
 \begin{itemize}
@@ -80,7 +99,7 @@ Una catena di Bi-twin di lunghezza $2k$ è una catena di $k$ numeri primi
     \item lunghezza: $k=5$
     \item catena: $5,7,11,13$
 \end{itemize}
-Le catene Bi-twin posso anche essere viste come l'unione di due catene di Cunningham del primo o del secondo tipo con la stessa origine e lunghezza.
+Le catene Bi-twin posso anche essere viste come l'unione di due catene di Cunningham del primo e del secondo tipo con la stessa origine e lunghezza. In questo caso viene scelta l'origine della prima catena essendo la minore.
 %
 \subsection*{Validazione delle catene}
 Il meccanismo di controllo e validazione delle Proof-of-Work inviate contenenti le catene di numeri primi prevede un test che utilizza il piccolo Teorema di Fermat (\href{http://primes.utm.edu/notes/proofs/FermatsLittleTheorem.html}{link alla dimostrazione}), esso afferma che, per $p$ primo ed $a$ intero 
@@ -88,7 +107,7 @@ Il meccanismo di controllo e validazione delle Proof-of-Work inviate contenenti 
 $a^{p-1} \equiv 1 (\bmod p)$ se $p$ non divide $a$.
 \end{center}
 
-\noindent I $p$ che soddisfano questo proprietà vengono chiamati \textit{pseudoprimi}, perché non tutti sono appunto primi. Vale però che maggiore è $p$, maggiore è la probabilità che sia primo. 
+\noindent I $p$ che soddisfano questo proprietà vengono chiamati \textit{pseudoprimi}, perché non tutti sono, appunto, primi. Vale però che maggiore è $p$, maggiore è la probabilità che esso sia primo. 
 
 \noindent Un esempio utilizza tipicamente $a=2$ e lo eleva alla $p-1$ (prendiamo $17$ e $23$) che modulo p risulta essere uguale ad $1$:
 \begin{center}
