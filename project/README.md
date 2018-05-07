@@ -89,3 +89,18 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 |Giandomenico D'Errico| 766245| |
 |Marco Viceconte| 794250| |
 |Matteo del Vescovo| 672572| |
+
+## Baget `Registered`
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+|[Tommaso Segato](tommaso.segato@studio.unibo.it)|776171||
+|Benedetta Boscherini |809111||
+|Giulia Fiocchi |801620||
+|Alessandro Vergara |801381||
+|Erica Tamarri |789145||
+
+## Freeze all Jolie functions
+|  Nome e Cognome | Matricola  | Voto |
+|---|---|---|
+| [Andrea Lombardo](mailto:andrea.lombardo7@studio.unibo.it) | 789952 | |
+| Matteo De Giosa | 789982 | |
