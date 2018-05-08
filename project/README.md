@@ -101,6 +101,14 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Federico Mazzini  | 800858 |
 | Francesco La Mura | 789522 |
 
+## Joliettana
+|  Nome e Cognome | Matricola | 
+|---|---|
+| [Nicola Ruschi](mailto:nicola.ruschi@studio.unibo.it) | 765869 |
+| Gabriele Rubini | 800895 |
+| Marco Bronzini | 792769 |
+| Giuseppe Cocevari | 802575 |
+
 ## 4 Gatti
 |  Nome e Cognome | Matricola  | 
 |---|---|
