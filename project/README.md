@@ -83,14 +83,14 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 |Alessandro Vergara |801381|
 |Erica Tamarri |789145|
 
-## MaiUnaJollar `Registered`
-|  Nome e Cognome | Matricola | 
+## MaiUnaJollar `Registered`
+| Nome e Cognome | Matricola | 
 |---|---|
-|[Alberto Donati](mailto:alberto.donati6@studio.unibo.it) | 788850|
-|Nicolò Paganelli | 804801|
-|Matteo Tramontano | 772520|
-|Slavcho Vlakeski | 767280|
-|Giacomo Pazzaglia | 691578|
+| [Alberto Donati](mailto:alberto.donati6@studio.unibo.it) | 788850 |
+| Nicolò Paganelli | 804801 |
+| Matteo Tramontano | 772520 |
+| Slavcho Vlakeski | 767280 |
+| Giacomo Pazzaglia | 691578 |
 
 ## Los Jollar Hermanos `Registered`
 |  Nome e Cognome | Matricola | 
