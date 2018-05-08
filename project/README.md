@@ -1,6 +1,6 @@
 # Laboratorio di Sistemi Operativi A.A. 2017/2018
 
-Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbia raggiunto la quota massima di membri, oppure se il tempo di registrazione è scaduto ed il gruppo ha un numero minore di 5 membri, troverete la dicitura `Registered`. Il voto pubblicato riguarda il solo progetto (senza discussione). 
+Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbia raggiunto la quota massima di membri, oppure se il tempo di registrazione è scaduto ed il gruppo ha un numero minore di 5 membri, troverete la dicitura `Registered`.
 
 ## BO.RO.LE 2018 `Registered`
 |  Nome e Cognome | Matricola  | 
@@ -37,22 +37,6 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Enrico Morselli | 806725 | 
 | Alessandro Memoli | 806773 | 
 | Marco Aspromonte | 806519 | 
-
-## 4 Gatti
-|  Nome e Cognome | Matricola  | 
-|---|---|
-|  [Enrico Gatti](mailto:enrico.gatti4@studio.unibo.it) |  801366 | 
-| Kevin Maiani | 801860 | 
-| Vittoria Conte | 788822 | 
-| Mattia Bellettini | 753920 | 
-
-## G.I.Jollar
-|  Nome e Cognome | Matricola  | 
-|---|---|
-|  [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 | 
-| Hamza Elatfi | 766364 | 
-| Daniele Filippini | 768268 | 
-| Thomas Lodi | 800963 | 
 
 ## NCS `Registered`
 |  Nome e Cognome | Matricola  | 
@@ -99,8 +83,63 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 |Alessandro Vergara |801381|
 |Erica Tamarri |789145|
 
+## MaiUnaJollar `Registered`
+|  Nome e Cognome | Matricola | 
+|---|---|
+|[Alberto Donati](mailto:alberto.donati6@studio.unibo.it) | 788850|
+|Nicolò Paganelli | 804801|
+|Matteo Tramontano | 772520|
+|Slavcho Vlakeski | 767280|
+|Giacomo Pazzaglia | 691578|
+
+## Los Jollar Hermanos `Registered`
+|  Nome e Cognome | Matricola | 
+|---|---|
+| [Andrea Gurioli](mailto:andrea.gurioli2@studio.unibo.it) | 738568 |
+| Michele Mongardi  | 801511 |
+| Giovanni Pietrucci  | 802834 |
+| Federico Mazzini  | 800858 |
+| Francesco La Mura | 789522 |
+
+## 4 Gatti
+|  Nome e Cognome | Matricola  | 
+|---|---|
+|  [Enrico Gatti](mailto:enrico.gatti4@studio.unibo.it) |  801366 | 
+| Kevin Maiani | 801860 | 
+| Vittoria Conte | 788822 | 
+| Mattia Bellettini | 753920 | 
+
+## G.I.Jollar
+|  Nome e Cognome | Matricola  | 
+|---|---|
+|  [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 | 
+| Hamza Elatfi | 766364 | 
+| Daniele Filippini | 768268 | 
+| Thomas Lodi | 800963 | 
+
+## I need a Jollar
+|  Nome e Cognome | Matricola | 
+|---|---|
+|[Andrea Fenati](mailto:andrea.fenati2@studio.unibo.it) |789630|
+|Marco Landi  |789066|
+|Elisa Rubini  |806630|
+
+## EdgarEboli
+|  Nome e Cognome | Matricola | 
+|---|---|
+| [Domenico Papandrea](mailto:domenico.papandrea@studio.unibo.it) | 769712 |
+| Daniel Fabbrica | 769760 |
+| Tommaso Pagni | 782607 |
+
 ## Freeze all Jolie functions
 |  Nome e Cognome | Matricola  | 
 |---|---|
 | [Andrea Lombardo](mailto:andrea.lombardo7@studio.unibo.it) | 789952 |
 | Matteo De Giosa | 789982 |
+
+## Hungry girls
+|  Nome e Cognome | Matricola | 
+|---|---|
+| [Simona Galante](mailto:simona.galante2@studio.unibo.it) | 801136 |
+| Sabrina Frisoni | 801475 |
+| Letizia Sarti | 744733 |
