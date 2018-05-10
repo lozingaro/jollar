@@ -5,7 +5,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## #deadlock `Registered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
-|  [Federca Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 | 
+| [Federca Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 | 
 | Giada Franceschini | 758288 | 
 | Virginia Gibertini | 758369 | 
 | Serena Passerini | 765715 | 
@@ -23,7 +23,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## Answer42 `Registered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
-|  [Giulia Grassano](mailto:giulia.grassano@studio.unibo.it) |  765873 |  
+| [Giulia Grassano](mailto:giulia.grassano@studio.unibo.it) |  765873 |  
 | Diego Morabito | 772252 | 
 | Giada Vatalaro | 773711 | 
 | Arzana Myrtaj | 772501 | 
@@ -32,16 +32,23 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## Baget `Registered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
-|[Tommaso Segato](tommaso.segato@studio.unibo.it)|776171|
-|Benedetta Boscherini |809111|
-|Giulia Fiocchi |801620|
-|Alessandro Vergara |801381|
-|Erica Tamarri |789145|
+| [Tommaso Segato](tommaso.segato@studio.unibo.it)|776171|
+| Benedetta Boscherini |809111|
+| Giulia Fiocchi |801620|
+| Alessandro Vergara |801381|
+| Erica Tamarri |789145|
+
+## BitJollar$ `Registered`
+|  Nome e Cognome | Matricola  | 
+|---|---|
+| [Federica Desalvi](mailto:federica.desalvi@studio.unibo.it) | 768356 |
+| Michele Greco | 772372 |
+| Davide Bonini | 695026 |
 
 ## BO.RO.LE 2018 `Registered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
-|  [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 |
+| [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 |
 | Francesca Ventruto | 733061 | 
 | Riccardo Costanzo | 732909 | 
 | Alessandro Fabbri | 739011 | 
@@ -77,7 +84,6 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Simona Galante](mailto:simona.galante2@studio.unibo.it) | 801136 |
 | Sabrina Frisoni | 801475 |
 | Letizia Sarti | 744733 |
-| [Alessandra Moschetta](mailto:alessandra.moschett2@studio.unibo.it) | 639968 |
 
 ## I need a Jollar `Registered`
 |  Nome e Cognome | Matricola | 
@@ -126,7 +132,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## MillionJollarBaby `Registered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
-|  [Jurgen Dreni](mailto:jurgen.dreni@studio.unibo.it) |  806526 | 
+| [Jurgen Dreni](mailto:jurgen.dreni@studio.unibo.it) |  806526 | 
 | Mario Gjeka | 773646 | 
 | Giuseppe Massimo | 802174 | 
 | Adelmo Baldini | 800985 |
@@ -135,7 +141,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## NCS `Registered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
-|  [Miriam Crudelini](mailto:miriam.crudelini@studio.unibo.it) |  794258 | 
+| [Miriam Crudelini](mailto:miriam.crudelini@studio.unibo.it) |  794258 | 
 | Virginia Gironi | 793169 | 
 | Michele Marini | 804153 | 
 | Lucrezia Orlandini | 800983 | 
@@ -153,8 +159,15 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 ## Team  SO `Registered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
-|[Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788| 
-|Emanuela Calvanese| 765662| 
-|Giandomenico D'Errico| 766245| 
-|Marco Viceconte| 794250| |
-|Matteo del Vescovo| 672572| |
+| [Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788| 
+| Emanuela Calvanese| 765662| 
+| Giandomenico D'Errico| 766245| 
+| Marco Viceconte| 794250| |
+| Matteo del Vescovo| 672572| |
+
+## X Team `Registered`
+|  Nome e Cognome | Matricola  | 
+|---|---|
+| [Alessandra Moschetta](mailto:alessandra.moschett2@studio.unibo.it) | 639968 |
+| [Matteo Tancredi](mailto:matteo.tancredi@studio.unibo.it) | 731746 |
+| [Nicola Cresci](mailto:nicola.cresci@studio.unibo.it) | 768026 |
