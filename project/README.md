@@ -44,6 +44,8 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Federica Desalvi](mailto:federica.desalvi@studio.unibo.it) | 768356 |
 | Michele Greco | 772372 |
 | Davide Bonini | 695026 |
+| [Riccardo Marchini](mailto:riccardo.marchini2@studio.unibo.it) |793144|
+| [Alessandra Moschetta](mailto:alessandra.moschett2@studio.unibo.it) | 639968 |
 
 ## BO.RO.LE 2018 `Registered`
 |  Nome e Cognome | Matricola  | 
@@ -91,7 +93,8 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Andrea Fenati](mailto:andrea.fenati2@studio.unibo.it) |789630|
 | Marco Landi  |789066|
 | Elisa Rubini  |806630|
-| [Riccardo Marchini](mailto:riccardo.marchini2@studio.unibo.it) |793144|
+| [Matteo Tancredi](mailto:matteo.tancredi@studio.unibo.it) | 731746 |
+| [Nicola Cresci](mailto:nicola.cresci@studio.unibo.it) | 768026 |
 
 ## Los Jollar Hermanos `Registered`
 |  Nome e Cognome | Matricola | 
@@ -162,12 +165,5 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788| 
 | Emanuela Calvanese| 765662| 
 | Giandomenico D'Errico| 766245| 
-| Marco Viceconte| 794250| |
-| Matteo del Vescovo| 672572| |
-
-## X Team `Registered`
-|  Nome e Cognome | Matricola  | 
-|---|---|
-| [Alessandra Moschetta](mailto:alessandra.moschett2@studio.unibo.it) | 639968 |
-| [Matteo Tancredi](mailto:matteo.tancredi@studio.unibo.it) | 731746 |
-| [Nicola Cresci](mailto:nicola.cresci@studio.unibo.it) | 768026 |
+| Marco Viceconte| 794250|
+| Matteo del Vescovo| 672572|
