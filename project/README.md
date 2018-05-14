@@ -105,7 +105,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Federico Mazzini  | 800858 |
 | Francesco La Mura | 789522 |
 
-## Joliettana `Registered`
+## Età Joliettiana `Registered`
 |  Nome e Cognome | Matricola | 
 |---|---|
 | [Nicola Ruschi](mailto:nicola.ruschi@studio.unibo.it) | 765869 |
