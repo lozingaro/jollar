@@ -80,6 +80,14 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Thomas Lodi | 800963 |
 | [Matteo Magnani](mailto:matteo.magnani20@studio.unibo.it) |  792797 | 
 
+## gruppo 13 `Registered`
+|  Nome e Cognome | Matricola  | 
+|---|---|
+| [Giandomenico D'Errico](mailto:giandomenico.derrico@studio.unibo.it)| 766245| 
+| Matteo del Vescovo| 672572|
+| Matteo Tancredi | 731746 |
+| Nicola Cresci | 768026 |
+
 ## Hungry girls `Registered`
 |  Nome e Cognome | Matricola | 
 |---|---|
@@ -93,8 +101,6 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Andrea Fenati](mailto:andrea.fenati2@studio.unibo.it) |789630|
 | Marco Landi  |789066|
 | Elisa Rubini  |806630|
-| [Matteo Tancredi](mailto:matteo.tancredi@studio.unibo.it) | 731746 |
-| [Nicola Cresci](mailto:nicola.cresci@studio.unibo.it) | 768026 |
 
 ## Los Jollar Hermanos `Registered`
 |  Nome e Cognome | Matricola | 
@@ -167,3 +173,4 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Giandomenico D'Errico| 766245| 
 | Marco Viceconte| 794250|
 | Matteo del Vescovo| 672572|
+
