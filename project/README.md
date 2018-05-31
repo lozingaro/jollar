@@ -47,7 +47,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Riccardo Marchini](mailto:riccardo.marchini2@studio.unibo.it) |793144|
 | [Alessandra Moschetta](mailto:alessandra.moschett2@studio.unibo.it) | 639968 |
 
-## BO.RO.LE 2018 `Registered`
+## BO.RO.LE 2018 `Registered` `Examined`
 |  Nome e Cognome | Matricola  | 
 |---|---|
 | [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 |
