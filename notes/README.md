@@ -19,8 +19,8 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 ### Prova orale e votazione finale (personali)
 | Matricola | Punteggio Orale | Votazione Finale |
 |---|---|---|
-| 731900 | 3 | 21 |
-| 733061 | 2 | 20 |
-| 732909 | 2 | 20 |
-| 739011 | 2 | 20 |
-| 772546 | 4 | 22 |
+| 731900 | 4 | 22 |
+| 733061 | 3 | 21 |
+| 732909 | 3 | 21 |
+| 739011 | 3 | 21 |
+| 772546 | 5 | 23 |
