@@ -170,7 +170,4 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 |---|---|
 | [Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788| 
 | Emanuela Calvanese| 765662| 
-| Giandomenico D'Errico| 766245| 
 | Marco Viceconte| 794250|
-| Matteo del Vescovo| 672572|
-
