@@ -2,10 +2,10 @@
 
 Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbia raggiunto la quota massima di membri, oppure se il tempo di registrazione è scaduto ed il gruppo ha un numero minore di 5 membri, troverete la dicitura `Registered`.
 
-## #deadlock `Registered`
+## #deadlock `Registered` `Delivered` 
 |  Nome e Cognome | Matricola  | 
 |---|---|
-| [Federca Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 | 
+| [Federica Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 | 
 | Giada Franceschini | 758288 | 
 | Virginia Gibertini | 758369 | 
 | Serena Passerini | 765715 | 
@@ -47,7 +47,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Riccardo Marchini](mailto:riccardo.marchini2@studio.unibo.it) |793144|
 | [Alessandra Moschetta](mailto:alessandra.moschett2@studio.unibo.it) | 639968 |
 
-## BO.RO.LE 2018 `Registered` `Examined`
+## BO.RO.LE 2018 `Registered` `Delivered` `Examined`
 |  Nome e Cognome | Matricola  | 
 |---|---|
 | [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 |
@@ -80,7 +80,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Thomas Lodi | 800963 |
 | [Matteo Magnani](mailto:matteo.magnani20@studio.unibo.it) |  792797 | 
 
-## gruppo 13 `Registered`
+## gruppo 13 `Registered` `Delivered` 
 |  Nome e Cognome | Matricola  | 
 |---|---|
 | [Giandomenico D'Errico](mailto:giandomenico.derrico@studio.unibo.it)| 766245| 
