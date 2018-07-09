@@ -9,7 +9,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Giada Franceschini | 758288 | 
 | Virginia Gibertini | 758369 | 
 | Serena Passerini | 765715 | 
-| Elena Pollini | 767654 | 
+| Elena Polini | 767654 | 
 
 ## 4 Gatti `Registered`
 |  Nome e Cognome | Matricola  | 
