@@ -83,7 +83,6 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 |  Nome e Cognome | Matricola  | 
 |---|---|
 | [Giandomenico D'Errico](mailto:giandomenico.derrico@studio.unibo.it)| 766245| 
-| Matteo del Vescovo| 672572|
 | Matteo Tancredi | 731746 |
 | Nicola Cresci | 768026 |
 
