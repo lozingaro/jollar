@@ -7,7 +7,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 |---|---|
 | [Federica Vespi](mailto:federica.vespi@studio.unibo.it) |  767820 | 
 | Giada Franceschini | 758288 | 
-| Virginia Gibertini | 758369 | 
+| Virginia Gibertini | 758368 | 
 | Serena Passerini | 765715 | 
 | Elena Polini | 767654 | 
 
