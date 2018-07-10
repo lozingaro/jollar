@@ -45,7 +45,6 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Michele Greco | 772372 |
 | Davide Bonini | 695026 |
 | [Riccardo Marchini](mailto:riccardo.marchini2@studio.unibo.it) |793144|
-| [Alessandra Moschetta](mailto:alessandra.moschett2@studio.unibo.it) | 639968 |
 
 ## BO.RO.LE 2018 `Registered` `Delivered` `Examined`
 |  Nome e Cognome | Matricola  | 
