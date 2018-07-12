@@ -10,14 +10,14 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | # | Qualità dell'informazione | Uso degli esempi | Analisi delle scelte implementative |
 |---|---|---|---|
 | *BO.RO.LE* | 4 | 2 | 3 |
-| *gruppo 13* |  |  |  |
-| *#deadlock* |  |  |  |
+| *gruppo 13* | 1 | 1 | 1 |
+| *#deadlock* | | | |
 
 ### Punteggi Implementazione (diviso per gruppi)
 | # | Uso dei costrutti di Jolie | Distribuzione del carico di lavoro nel gruppo | Grado di partecipazione alla comunità |
 |---|---|---|---|
 | *BO.RO.LE* | 3 | 2 | 4 |
-| *gruppo 13* |  |  |  |
+| *gruppo 13* | 3 | 1 | 3 |
 | *#deadlock* |  |  |  |
 
 ### Prova orale e votazione finale (personali)
@@ -33,6 +33,6 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | 758368 | | |
 | 765715 | | |
 | 767654 | | |
-| 766245 | | | 
-| 731746 | | |
-| 768026 | | |
+| 766245 | 2 | 12 | 
+| 731746 | 4 | 14 |
+| 768026 | 2 | 12 |
