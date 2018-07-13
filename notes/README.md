@@ -11,14 +11,14 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 |---|---|---|---|
 | *BO.RO.LE* | 4 | 2 | 3 |
 | *gruppo 13* | 1 | 1 | 1 |
-| *#deadlock* | | | |
+| *#deadlock* | 5 | 5 | 4 |
 
 ### Punteggi Implementazione (diviso per gruppi)
 | # | Uso dei costrutti di Jolie | Distribuzione del carico di lavoro nel gruppo | Grado di partecipazione alla comunità |
 |---|---|---|---|
 | *BO.RO.LE* | 3 | 2 | 4 |
 | *gruppo 13* | 3 | 1 | 3 |
-| *#deadlock* |  |  |  |
+| *#deadlock* | 5 | 5 | 3 |
 
 ### Prova orale e votazione finale (personali)
 | Matricola | Punteggio Orale | Votazione Finale |
@@ -28,11 +28,11 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | 732909 | 3 | 21 |
 | 739011 | 3 | 21 |
 | 772546 | 5 | 23 |
-| 767820 | | |
-| 758288 | | |
-| 758368 | | |
-| 765715 | | |
-| 767654 | | |
+| 767820 | 4 | 31 |
+| 758288 | 4 | 31 |
+| 758368 | 5 | 32 |
+| 765715 | 5 | 32 |
+| 767654 | 4 | 31 |
 | 766245 | 2 | 12 | 
 | 731746 | 4 | 14 |
 | 768026 | 2 | 12 |
