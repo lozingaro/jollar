@@ -61,8 +61,6 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | [Domenico Papandrea](mailto:domenico.papandrea@studio.unibo.it) | 769712 |
 | Daniel Fabbrica | 769760 |
 | Tommaso Pagni | 782607 |
-| [Erind Peci](mailto:erind.peci@studio.unibo.it) | 766703 |
-| [Zoubeir Warrache](mailto:zoubeir.warrache@studio.unibo.it) | 772430 | 
 
 ## Freeze all Jolie functions `Registered`
 |  Nome e Cognome | Matricola  | 
