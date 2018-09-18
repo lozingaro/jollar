@@ -41,7 +41,7 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 
 ### Prova orale e votazione finale (personali)
 | Nome | Matricola | Punteggio Orale | Votazione Finale |
-|---|---|---|
+|---|---|---|---|
 | [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 | 5 | 23 |
 | Francesca Ventruto | 733061 | 3 | 21 |
 | Riccardo Costanzo | 732909 | 3 | 21 |
