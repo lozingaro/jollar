@@ -7,7 +7,7 @@ In accordo con i singoli gruppi verrà creato un appello su Almaesami per la dat
 La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *documentazione* ed *implementazione*, proporzionato in 30-esimi, costituisce il punteggio di partenza. Tale valore, sommato al punteggio dell'esame orale, vale come voto finale.
 
 ### Punteggi Documentazione (diviso per gruppi)
-| # | Qualità dell'informazione | Uso degli esempi | Analisi delle scelte implementative |
+| Nome | Qualità dell'informazione | Uso degli esempi | Analisi delle scelte implementative |
 |---|---|---|---|
 | *BO.RO.LE* | 4 | 2 | 3 |
 | *gruppo 13* | 2 | 3 | 2 |
@@ -23,7 +23,7 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | *Freeze all Jolie functions* |  |  |  |
 
 ### Punteggi Implementazione (diviso per gruppi)
-| # | Uso dei costrutti di Jolie | Distribuzione del carico di lavoro nel gruppo | Grado di partecipazione alla comunità |
+| Nome | Uso dei costrutti di Jolie | Distribuzione del carico di lavoro nel gruppo | Grado di partecipazione alla comunità |
 |---|---|---|---|
 | *BO.RO.LE* | 3 | 2 | 4 |
 | *gruppo 13* | 3 | 1 | 3 |
@@ -40,7 +40,7 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 
 
 ### Prova orale e votazione finale (personali)
-| Matricola | Punteggio Orale | Votazione Finale |
+| Nome | Matricola | Punteggio Orale | Votazione Finale |
 |---|---|---|
 | [Bruno Marafini](mailto:bruno.marafini@studio.unibo.it) |  731900 | 5 | 23 |
 | Francesca Ventruto | 733061 | 3 | 21 |
