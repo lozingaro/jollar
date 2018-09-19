@@ -29,9 +29,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Serena Passerini | 765715 | 
 | Elena Polini | 767654 | 
 
-## To be Examined
-
-### Jsociety `Registered` `Delivered`
+### Jsociety `Registered` `Delivered` `Examined`
 |  Nome e Cognome | Matricola  | 
 |---|---|
 | [Giacomo Rondelli](mailto:giacomo.rondelli2@studio.unibo.it) |  801416 | 
@@ -40,7 +38,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Michele Vece | 801286 |
 | Gianmarco Lilli | 802572 |
 
-### Per un pugno di Jollar `Registered` `Delivered`
+### Per un pugno di Jollar `Registered` `Delivered` `Examined`
 |  Nome e Cognome | Matricola  | 
 |---|---|
 |  [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 |  
@@ -49,14 +47,14 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Alessandro Memoli | 806773 | 
 | Marco Aspromonte | 806519 | 
 
-### EdgarEboli `Registered` `Delivered`
+### EdgarEboli `Registered` `Delivered` `Examined`
 |  Nome e Cognome | Matricola | 
 |---|---|
 | [Domenico Papandrea](mailto:domenico.papandrea@studio.unibo.it) | 769712 |
 | Daniel Fabbrica | 769760 |
 | Tommaso Pagni | 782607 |
 
-### G.I.Jollar `Registered` `Delivered`
+### G.I.Jollar `Registered` `Delivered` `Examined`
 |  Nome e Cognome | Matricola  | 
 |---|---|
 | [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 | 
@@ -64,7 +62,7 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Daniele Filippini | 768268 | 
 | Thomas Lodi | 800963 |
 
-### Los Jollar Hermanos `Registered` `Delivered`
+### Los Jollar Hermanos `Registered` `Delivered` `Examined`
 |  Nome e Cognome | Matricola | 
 |---|---|
 | [Andrea Gurioli](mailto:andrea.gurioli2@studio.unibo.it) | 738568 |
@@ -72,6 +70,8 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Giovanni Pietrucci  | 802834 |
 | Federico Mazzini  | 800858 |
 | Francesco La Mura | 789522 |
+
+## To be Examined
 
 ### Team  SO `Registered` `Delivered`
 |  Nome e Cognome | Matricola  | 
