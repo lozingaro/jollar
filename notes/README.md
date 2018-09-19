@@ -12,11 +12,11 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | *BO.RO.LE* | 4 | 2 | 3 |
 | *gruppo 13* | 2 | 3 | 2 |
 | *#deadlock* | 5 | 5 | 4 |
-| *Jsociety* |  |  |  |
-| *Per un Pugno di Jollar* |  |  |  |
-| *EdgarEboli* |  |  |  |
-| *G.I.Jollar* |  |  |  |
-| *LosJollarHermanos* |  |  |  |
+| *Jsociety* | 5 | 3 | 5 |
+| *Per un Pugno di Jollar* | 5 | 3 | 4 |
+| *EdgarEboli* | 3 | 2 | 4 |
+| *G.I.Jollar* | 3 | 2 | 2 |
+| *LosJollarHermanos* | 3 | 3 | 2 |
 | *TeamSO* |  |  |  |
 | *Answer42* |  |  |  |
 | *MaiUnaJollar* |  |  |  |
@@ -28,11 +28,11 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | *BO.RO.LE* | 3 | 2 | 4 |
 | *gruppo 13* | 3 | 1 | 3 |
 | *#deadlock* | 5 | 5 | 3 |
-| *Jsociety* |  |  |  |
-| *Per un Pugno di Jollar* |  |  |  |
-| *EdgarEboli* |  |  |  |
-| *G.I.Jollar* |  |  |  |
-| *LosJollarHermanos* |  |  |  |
+| *Jsociety* | 5 | 4 | 3 |
+| *Per un Pugno di Jollar* | 5 | 5 | 3 |
+| *EdgarEboli* | 3 | 4 | 4 |
+| *G.I.Jollar* | 3 | 2 | 3 |
+| *LosJollarHermanos* | 3 | 3 | 2 |
 | *TeamSO* |  |  |  |
 | *Answer42* |  |  |  |
 | *MaiUnaJollar* |  |  |  |
@@ -55,28 +55,28 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | Virginia Gibertini | 758368 | 5 | 32 |
 | Serena Passerini | 765715 | 5 | 32 |
 | Elena Polini | 767654 | 4 | 31 |
-| [Giacomo Rondelli](mailto:giacomo.rondelli2@studio.unibo.it) |  801416 |  | |
-| Alberto Zini | 802289 | | |
-| Gabriele Malossi | 794144 | | |
-| Michele Vece | 801286 | | |
-| Gianmarco Lilli | 802572 | | |
-| [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 | | |
-| Davide Menetto | 768828 | | |
-| Enrico Morselli | 806725 | | |
-| Alessandro Memoli | 806773 | | |
-| Marco Aspromonte | 806519 | | | 
-| [Domenico Papandrea](mailto:domenico.papandrea@studio.unibo.it) | 769712 | | |
-| Daniel Fabbrica | 769760 | | |
-| Tommaso Pagni | 782607 | | |
-| [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 |  | |
-| Hamza Elatfi | 766364 |  | |
-| Daniele Filippini | 768268 |  | |
-| Thomas Lodi | 800963 | | |
-| [Andrea Gurioli](mailto:andrea.gurioli2@studio.unibo.it) | 738568 | | |
-| Michele Mongardi  | 801511 | | |
-| Giovanni Pietrucci  | 802834 | | |
-| Federico Mazzini  | 800858 | | |
-| Francesco LaMura | 789522 | | |
+| [Giacomo Rondelli](mailto:giacomo.rondelli2@studio.unibo.it) |  801416 | 3 | 28 |
+| Alberto Zini | 802289 | 5 | 30 |
+| Gabriele Malossi | 794144 | 3 | 28 |
+| Michele Vece | 801286 | 5 | 30 |
+| Gianmarco Lilli | 802572 | 4 | 29 |
+| [Giacomo Minello](mailto:mailto:giacomo.minello@studio.unibo.it) |  802402 | 5 | 30 |
+| Davide Menetto | 768828 | 3 | 28 |
+| Enrico Morselli | 806725 | 4 | 29 |
+| Alessandro Memoli | 806773 | 4 | 29 |
+| Marco Aspromonte | 806519 | 5 | 30 | 
+| [Domenico Papandrea](mailto:domenico.papandrea@studio.unibo.it) | 769712 | 4 | 24 |
+| Daniel Fabbrica | 769760 | 4 | 24 |
+| Tommaso Pagni | 782607 | 3 | 23 |
+| [Leonardo Stupazzoni](mailto:leonardo.stupazzoni@studio.unibo.it) |  765585 | 3 | 18 |
+| Hamza Elatfi | 766364 | 3 | 18 |
+| Daniele Filippini | 768278 | 3 | 18 |
+| Thomas Lodi | 800963 | 3 | 18 |
+| [Andrea Gurioli](mailto:andrea.gurioli2@studio.unibo.it) | 738568 | 3 | 19 |
+| Michele Mongardi  | 801511 | 4 | 20 |
+| Giovanni Pietrucci  | 802834 | 3 | 19 |
+| Federico Mazzini  | 800858 | 4 | 20 |
+| Francesco LaMura | 789522 | 2 | 18 |
 | [Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788|  | |
 | Emanuela Calvanese| 765662|  | |
 | Marco Viceconte| 794250| | |
