@@ -17,10 +17,8 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | *EdgarEboli* | 3 | 2 | 4 |
 | *G.I.Jollar* | 3 | 2 | 2 |
 | *LosJollarHermanos* | 3 | 3 | 2 |
-| *TeamSO* |  |  |  |
-| *Answer42* |  |  |  |
-| *MaiUnaJollar* |  |  |  |
-| *Freeze all Jolie functions* |  |  |  |
+| *TeamSO* | 2 | 4 | 4 |
+| *Freeze all Jolie functions* | 3 | 3 | 3 |
 
 ### Punteggi Implementazione (diviso per gruppi)
 | Nome | Uso dei costrutti di Jolie | Distribuzione del carico di lavoro nel gruppo | Grado di partecipazione alla comunità |
@@ -33,10 +31,8 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | *EdgarEboli* | 3 | 4 | 4 |
 | *G.I.Jollar* | 3 | 2 | 3 |
 | *LosJollarHermanos* | 3 | 3 | 2 |
-| *TeamSO* |  |  |  |
-| *Answer42* |  |  |  |
-| *MaiUnaJollar* |  |  |  |
-| *Freeze all Jolie functions* |  |  |  |
+| *TeamSO* | 4 | 3 | 3 |
+| *Freeze all Jolie functions* | 4 | 3 | 3 |
 
 
 ### Prova orale e votazione finale (personali)
@@ -77,18 +73,8 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | Giovanni Pietrucci  | 802834 | 3 | 19 |
 | Federico Mazzini  | 800858 | 3 | 19 |
 | Francesco LaMura | 789522 | 2 | 18 |
-| [Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788|  | |
-| Emanuela Calvanese| 765662|  | |
-| Marco Viceconte| 794250| | |
-| [Giulia Grassano](mailto:giulia.grassano@studio.unibo.it) |  765873 |  | | 
-| Diego Morabito | 772252 |  | |
-| Giada Vatalaro | 773711 |  | |
-| Arzana Myrtaj | 772501 |  | |
-| Nicola Corea | 731446 |  | |
-| [Alberto Donati](mailto:alberto.donati6@studio.unibo.it) | 788850 | | | 
-| Nicolò Paganelli | 804801 | | | 
-| Matteo Tramontano | 772520 | | | 
-| Slavcho Vlakeski | 767280 | | | 
-| Giacomo Pazzaglia | 691578 | | | 
-| [Andrea Lombardo](mailto:andrea.lombardo7@studio.unibo.it) | 789952 | | | 
-| Matteo De Giosa | 789982 | | | 
+| [Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788| 4 | 24 |
+| Emanuela Calvanese| 765662| 4 | 24 |
+| Marco Viceconte| 794250| 4 | 24 |
+| [Andrea Lombardo](mailto:andrea.lombardo7@studio.unibo.it) | 789952 | 3 | 22 | 
+| Matteo De Giosa | 789982 | 4 | 23 | 
