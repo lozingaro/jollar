@@ -73,9 +73,9 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | Daniele Filippini | 768278 | 3 | 18 |
 | Thomas Lodi | 800963 | 3 | 18 |
 | [Andrea Gurioli](mailto:andrea.gurioli2@studio.unibo.it) | 738568 | 3 | 19 |
-| Michele Mongardi  | 801511 | 4 | 20 |
+| Michele Mongardi  | 801511 | 3 | 19 |
 | Giovanni Pietrucci  | 802834 | 3 | 19 |
-| Federico Mazzini  | 800858 | 4 | 20 |
+| Federico Mazzini  | 800858 | 3 | 19 |
 | Francesco LaMura | 789522 | 2 | 18 |
 | [Andrea Chiellino](mailto:andrea.chiellino@studio.unibo.it) | 771788|  | |
 | Emanuela Calvanese| 765662|  | |
