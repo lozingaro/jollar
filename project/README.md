@@ -71,8 +71,6 @@ Di seguito l'elenco ufficiale dei gruppi per il progetto. In caso il gruppo abbi
 | Federico Mazzini  | 800858 |
 | Francesco La Mura | 789522 |
 
-## To be Examined
-
 ### Team  SO `Registered` `Delivered`
 |  Nome e Cognome | Matricola  | 
 |---|---|
