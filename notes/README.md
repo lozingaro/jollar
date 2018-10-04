@@ -19,6 +19,7 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | *LosJollarHermanos* | 3 | 3 | 2 |
 | *TeamSO* | 2 | 4 | 4 |
 | *Freeze all Jolie functions* | 3 | 3 | 3 |
+| *Answer42* | 4 | 2 | 3 |
 
 ### Punteggi Implementazione (diviso per gruppi)
 | Nome | Uso dei costrutti di Jolie | Distribuzione del carico di lavoro nel gruppo | Grado di partecipazione alla comunità |
@@ -33,7 +34,7 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | *LosJollarHermanos* | 3 | 3 | 2 |
 | *TeamSO* | 4 | 3 | 3 |
 | *Freeze all Jolie functions* | 4 | 3 | 3 |
-
+| *Answer42* | 2 | 2 | 2 |
 
 ### Prova orale e votazione finale (personali)
 | Nome | Matricola | Punteggio Orale | Votazione Finale |
@@ -78,3 +79,8 @@ La valutazione dei singoli elementi va da 0 a 5 punti. La media dei voti di *doc
 | Marco Viceconte| 794250| 4 | 24 |
 | [Andrea Lombardo](mailto:andrea.lombardo7@studio.unibo.it) | 789952 | 3 | 22 | 
 | Matteo De Giosa | 789982 | 4 | 23 | 
+| [Giulia Grassano](mailto:giulia.grassano@studio.unibo.it) |  765873 | 3 | 18  | 
+| Diego Morabito | 772252 | 3 | 18 |
+| Giada Vatalaro | 773711 | 3 | 18 |
+| Arzana Myrtaj | 772501 | 3 | 18 |
+| Nicola Corea | 731446 | 3 | 18 |
